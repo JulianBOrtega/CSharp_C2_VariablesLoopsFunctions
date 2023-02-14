@@ -4,34 +4,36 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TP_2_Julian_B_Ortega
+namespace Funcion_CalcularIVA
 {
     class Program
     {
         /* 
             Consigna:
             ---------------------
-            Crea un programa que calcule el IVA de un producto. 
-            El valor de este producto se pasará por teclado y nos 
-            mostrará por pantalla el valor del IVA y su valor final. 
-            El IVA es el 21 %. Por ejemplo, si introducimos 100 como 
-            valor de producto, el IVA es 21 y el valor final es 121.
+            Crear la función para el ejercicio 1 que se llame CalcularIVA, 
+            la cual debe recibir un parámetro de tipo numérico y devolver 
+            el valor Final con IVA.
         */
 
         static void Main(string[] args)
         {
             float valor = ValidarEntrada(MostrarMensaje("Por favor introduzca el valor del producto."));
-            const float IVA = 21;
 
-            MostrarMensaje("Con un IVA del " + IVA + "% y un producto con el valor de $" 
-                + valor + ", el valor total es de: $" + (valor + (valor / 100 * IVA)) );
+            MostrarMensaje("Con un IVA del 21% y un producto con el valor de $"
+                + valor + ", el valor total es de: $" + CalcularIVA(valor));
+        }
+
+        static float CalcularIVA(float valor)
+        {
+            return valor + (valor / 100 * 21);
         }
 
         static string MostrarMensaje(string mensaje)
         {
             Console.Clear();
 
-            Console.WriteLine("/////////////// TP2 - Ejercicio 1: Calculo de IVA - Julián B. Ortega ///////////////");
+            Console.WriteLine("/////////////// TP2 - Ejercicio 3: Función de Calculo de IVA - Julián B. Ortega ///////////////");
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine(mensaje);
@@ -45,7 +47,7 @@ namespace TP_2_Julian_B_Ortega
         {
             bool exito = false;
 
-            if(!float.TryParse(input, out float resultado))
+            if (!float.TryParse(input, out float resultado))
             {
                 do
                 {
