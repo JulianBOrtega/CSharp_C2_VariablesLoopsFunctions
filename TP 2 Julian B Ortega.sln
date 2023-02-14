@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1525
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcularIVA", "TP 2 Julian B Ortega\CalcularIVA.csproj", "{9C346364-ACCC-49F9-9EFD-B75BA1C6A867}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoDivisibles", "NoDivisibles\NoDivisibles.csproj", "{586A3553-D47E-4341-BC1D-890D368CA7FE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Funcion CalcularIVA", "Funcion CalcularIVA\Funcion CalcularIVA.csproj", "{55768BCA-1FB4-4F22-9639-40D3FC07235B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcularIVA", "CalcularIVA\CalcularIVA.csproj", "{9C346364-ACCC-49F9-9EFD-B75BA1C6A867}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9C346364-ACCC-49F9-9EFD-B75BA1C6A867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9C346364-ACCC-49F9-9EFD-B75BA1C6A867}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9C346364-ACCC-49F9-9EFD-B75BA1C6A867}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9C346364-ACCC-49F9-9EFD-B75BA1C6A867}.Release|Any CPU.Build.0 = Release|Any CPU
 		{586A3553-D47E-4341-BC1D-890D368CA7FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{586A3553-D47E-4341-BC1D-890D368CA7FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{586A3553-D47E-4341-BC1D-890D368CA7FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{55768BCA-1FB4-4F22-9639-40D3FC07235B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55768BCA-1FB4-4F22-9639-40D3FC07235B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55768BCA-1FB4-4F22-9639-40D3FC07235B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C346364-ACCC-49F9-9EFD-B75BA1C6A867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C346364-ACCC-49F9-9EFD-B75BA1C6A867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C346364-ACCC-49F9-9EFD-B75BA1C6A867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C346364-ACCC-49F9-9EFD-B75BA1C6A867}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

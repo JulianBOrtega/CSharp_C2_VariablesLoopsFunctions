@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{9C346364-ACCC-49F9-9EFD-B75BA1C6A867}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TP_2_Julian_B_Ortega</RootNamespace>
-    <AssemblyName>TP 2 Julian B Ortega</AssemblyName>
+    <RootNamespace>CalcularIVA</RootNamespace>
+    <AssemblyName>CalcularIVA</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
